@@ -1,0 +1,31 @@
+{
+  "name": "gym membership service",
+  "version": "1.0.0",
+  "description": "Fitness+ Gym Membership service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "fitness",
+    "gym",
+    "crud api"
+  ],
+  "author": "Bello Abdulsamad",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "sinon": "^18.0.0"
+  }
+}
