@@ -3,7 +3,7 @@ const processMemberships = require('./cronService/notifyEngine').processMembersh
 
 
 // the cron job is schedule to run for midnight everyday
-let dailyTime = '* * * *';
+const dailyTime = '0 0 * * *';
 
 
 // you can uncomment below code to make the cron job run every 50 secs
